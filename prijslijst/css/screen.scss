@@ -1,0 +1,30 @@
+$color-black: #000;
+$color-black--light: #aaaaaa;
+$color-accent: #ff9c9c;
+
+.c-dish {
+
+  &__description {
+    color: $color-black--light;
+  }
+  &__main {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+  &__space {
+
+  }
+  &__price {
+
+    &--marker {
+      color: $color-accent;
+    }
+
+  }
+  &__title {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 0;
+  }
+}

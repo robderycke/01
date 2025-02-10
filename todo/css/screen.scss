@@ -1,0 +1,26 @@
+.o-container {
+	max-width: 30rem;
+	margin: 3rem auto;
+}
+
+.c-todos {
+	&__item {
+		display: flex;
+		padding: 1rem;
+		margin: 0.5rem 0;
+		background-color: #f7f7f7;
+	}
+
+	&__check {
+		flex-shrink: 0;
+	}
+
+	&__label {
+		margin-left: 0.5rem;
+		transition: all 0.2s;
+
+		&--checked {
+			text-decoration: line-through;
+		}
+	}
+}

@@ -1,0 +1,40 @@
+.c-zender {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border-radius: 0.5rem;
+  overflow: hidden;
+
+  background-color: #c8d0d6;
+  &__brand {
+  }
+
+  &__control {
+    margin: 0.25rem;
+  }
+  &__symbol {
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+  }
+  &__visual {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    align-items: center;
+    background-color: #d5dee5;
+    color: white;
+    &:hover {
+      background-color: #c8d0d6;
+    }
+  }
+}
+
+.c-favoriet {
+  background: #c8d0d6;
+  padding: 0.25rem;
+  // &::before {
+  //   content: 'My Fav:';
+  //   font-size: 0.75rem;
+  // }
+}

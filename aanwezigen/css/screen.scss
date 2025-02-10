@@ -1,0 +1,34 @@
+$color-blue: #f0f8ff;
+$color-blue--dark: #9cd1ff;
+$color-grey: #e0dcdc;
+$color-grey--dark: #ccc;
+
+.c-attendance-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+
+  &__control {
+  }
+  &__name {
+    background-color: pink;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+  }
+  &__student {
+    background-color: $color-blue;
+    padding-left: 0.5rem;
+
+    display: flex;
+    &:hover {
+      background-color: $color-blue--dark;
+    }
+    &--deregistered {
+      background-color: $color-grey;
+      color: $color-grey--dark;
+      &:hover {
+        background-color: $color-grey;
+      }
+    }
+  }
+}
